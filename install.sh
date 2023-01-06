@@ -13,7 +13,7 @@ echo ""
 echo "Instalando GIT e Node..."
 echo ""
 sudo yum install git -y
-curl -sL https://rpm.nodesource.com/setup_10.x | sudo bash -
+curl -sL https://rpm.nodesource.com/setup_14.x | sudo bash -
 sudo yum install nodejs -y
 echo ""
-echo "Patch Brasileiro Instalado."
+echo "Patch Instalado."
