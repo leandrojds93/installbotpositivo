@@ -16,4 +16,10 @@ sudo yum install git -y
 curl -sL https://rpm.nodesource.com/setup_14.x | sudo bash -
 sudo yum install nodejs -y
 echo ""
-echo "Patch Instalado."
+echo "Atualizando o sistema e instalando pm2..."
+echo ""
+yum -y update && yum -y upgrade
+npm install pm2 -g
+echo ""
+echo "Criando diretorio e clonando repositorio..."
+echo ""
