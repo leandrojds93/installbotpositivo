@@ -30,3 +30,9 @@ cd /var/www/html
 git clone https://github.com/leandrojds93/installbotpositivo.git
 mv installbotpositivo bot
 echo ""
+clear
+echo "Instalando bot..."
+sleep 5
+cd bot
+npm install
+echo ""
