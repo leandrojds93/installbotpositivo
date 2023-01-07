@@ -64,7 +64,7 @@ $whatsapp = "55" . $tratado;
 if (!empty($id) && !empty($whatsapp) && !empty($mensagem) && strlen($whatsapp) == 12) {
     ## INICIA INTEGRAÇÃO WHATICKET
     ## AQUI INSERE A URL DA API
-    $url = 'http://192.168.0.242:8000/send-message';
+    $url = 'http://localhost:8000/send-message';
     $data = array(
         "sender" => $id,
         "number" => $whatsapp,
