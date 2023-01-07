@@ -22,4 +22,6 @@ yum -y update && yum -y upgrade
 npm install pm2 -g
 echo ""
 echo "Criando diretorio e clonando repositorio..."
+mkdir /var/www/html/bot
+cd /var/www/html/bot
 echo ""
