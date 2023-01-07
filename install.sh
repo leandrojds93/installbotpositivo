@@ -15,13 +15,18 @@ echo ""
 sudo yum install git -y
 curl -sL https://rpm.nodesource.com/setup_14.x | sudo bash -
 sudo yum install nodejs -y
+clear
 echo ""
 echo "Atualizando o sistema e instalando pm2..."
+sleep 5
 echo ""
 yum -y update && yum -y upgrade
 npm install pm2 -g
 echo ""
+clear
 echo "Criando diretorio e clonando repositorio..."
-mkdir /var/www/html/bot
-cd /var/www/html/bot
+sleep 5
+cd /var/www/html
+git clone https://github.com/leandrojds93/installbotpositivo.git
+mv installbotpositivo bot
 echo ""
