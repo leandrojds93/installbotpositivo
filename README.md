@@ -10,3 +10,5 @@ Altere o arquivo "/var/www/html/bot/potpositivo.js" de acordo com a sua nescessi
 Acesse através do endereço: "http://IP-DO-SERVIDOR:8000/"
 #
 Duvidas ou sugestões enviar email para: contato@positivopromotora.com.br
+#
+Recomendo reiniciar o servidor diariamente para limpar o cache do sistema!
