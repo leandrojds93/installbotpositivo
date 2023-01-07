@@ -12,3 +12,9 @@ Acesse através do endereço: "http://IP-DO-SERVIDOR:8000/"
 Duvidas ou sugestões enviar email para: contato@positivopromotora.com.br
 #
 Recomendo reiniciar o servidor diariamente para limpar o cache do sistema!
+# :hammer: Funcionalidades do projeto
+
+- `-`: Robo auto-responder whatsapp personalizel.
+- `-`: Envio de mensagens via post json.
+- `-`: Envio de mensagens via post url.
+- `-`: Definição de horario.
