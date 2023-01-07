@@ -1,4 +1,5 @@
 # installbotpositivo
+# Biblioteca "whatsapp-web.js"
 Para instalação rode o comando: "wget -O - https://raw.githubusercontent.com/leandrojds93/installbotpositivo/main/install.sh | bash"
 #
 Altere o arquivo "/var/www/html/bot/potpositivo.js" de acordo com a sua nescessidade!!!
