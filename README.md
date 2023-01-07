@@ -1,4 +1,5 @@
 # Whatsapp API - Positivo Promotora
+![tela principal](https://i.ibb.co/hWVSLSr/Screenshot-3.png)
 > :construction: Projeto em construção :construction:
 # Biblioteca "whatsapp-web.js"
 ****
