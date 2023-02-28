@@ -10,11 +10,13 @@ sleep 20
 echo ""
 echo "INICIANDO O PROCESSO..."
 echo ""
-echo "Instalando GIT e Node..."
+echo "Instalando Chrome, GIT e Node..."
 echo ""
 sudo yum install git -y
 curl -sL https://rpm.nodesource.com/setup_14.x | sudo bash -
 sudo yum install nodejs -y
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+sudo yum install google-chrome-stable_current_x86_64.rpm -y
 clear
 echo ""
 echo "Atualizando o sistema e instalando pm2..."
@@ -42,6 +44,8 @@ clear
 echo ""
 echo "Iniciando bot..."
 pm2 start "node botpositivo.js" --name botpositivo
+pm2 save
+pm2 startup
 sleep 5
 clear
 echo ""
